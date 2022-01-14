@@ -1,0 +1,22 @@
+td,
+select,
+div,
+form {
+    font-size: 12pt;
+    color: black;
+    line-height: 160%;
+    font-family: 굴림, Verdana, Tahoma, sans-serif;
+}
+
+input,
+textarea {
+    border: 1px solid #999999;
+    font-size: 12pt;
+    color: black;
+    font-family: 굴림, Verdana, Tahoma, sans-serif;
+    background-color: white;
+}
+
+input {
+    height: 20px;
+}

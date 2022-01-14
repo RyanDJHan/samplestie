@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* 초기화 */
+html, body, div, header, nav, section, aside, article, footer, figure, figcaption, 
+fieldset, legend, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+fieldset {
+    border: 0;
+}
+/* 숨김 콘텐츠 */
+.hidden, legend, caption {
+    position: absolute;
+    left: -9999em;
+}
+/* 기본 스타일 */
+body {
+    color: #000;
+    background-color: #BDBDBD;
+    font-size: 12px;
+    line-height: 1.2;
+}
+#wrapper {
+    background-color: #BDBDBD;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+/* 헤더 영역 */
+header {
+    width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    height: 50px;
+    background-color: #fff;
+    padding: 0 30px;
+    border-radius: 0 0 15px 15px;
+}
+.logo {
+    position: absolute;
+    left: 30px;
+}
+.logo a img {
+    width: 100px;
+}
+.infoLink {
+    text-align: right;
+}
+.infoLink li {
+    display: inline-block;
+    padding: 8px 0 7px 3px;
+}
+.infoLink li:first-child a::before {
+    content: "";
+}
+.infoLink a:link {
+    color: #4f4f4f;
+    text-decoration: none;
+}
+.infoLink a:visited {
+    color: #8e8e91;
+    text-decoration: none;
+}
+.infoLink a:hover, a:focus {
+    color: #f00;
+    text-decoration: none;
+}
+/* 헤더 영역 끝*/
+

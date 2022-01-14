@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    margin: 0 50 0 auto;
+    padding: 10px;
+}
+.menu ul li{
+    padding-top: 10px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.8em;
+}
+.menu a:hover{
+    color: red;
+}
+.mainImage{
+    padding: 10px;
+}
